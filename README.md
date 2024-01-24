@@ -1,5 +1,9 @@
 Group # 4
 
+- Pinja
+- Mychel
+- George
+
 - What now?
 
 Typing Game
