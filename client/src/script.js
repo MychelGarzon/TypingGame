@@ -7,7 +7,7 @@ quoteInputElement.addEventListener('input', () => {
   const arrayQuote = quoteDisplayElement.querySelectorAll('span')
   const arrayValue = quoteInputElement.value.split('')
 
-  const correct = true
+  let correct = true
   arrayQuote.forEach((characterSpan, index) => {
     const character = arrayValue[index]
     if (character == null) {
